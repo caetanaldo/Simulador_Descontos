@@ -1,0 +1,104 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: url('assets/img.jpg') no-repeat center center fixed;
+  background-size: cover; color: #eaeaea;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Container principal */
+.container{
+  background-color: rgba(30, 30, 30, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6);
+  padding: 40px 60px;
+  max-width: 580px;
+  width: 100%;
+  text-align: center;
+  backdrop-filter: blur(12px);
+}
+
+/* Título */
+h1 {
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+h2{
+  font-weight: 400;
+  font-size: 1rem;
+  color: #b0b0b0;
+  margin-bottom: 30px;
+}
+
+/* Inputs */
+input, select{
+  width: 100%;
+  padding: 12px 15px;
+  margin: 12px 0;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  background-color: rgba(255, 255, 255, 0.05);
+
+  transition: all 0.3s ease;
+}
+input{
+  color: #fff;
+}
+select{
+  color: #000000;
+}
+
+input:focus, select:focus {
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.2);
+}
+
+/* Botão */
+button{
+  width: 100%;
+  background-color: linear-gradient(90deg, #d4af37, #f0c75e);
+  color: #000;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  padding: 12px 15px;
+  border: none;
+  border-radius: 12px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover{
+  background-color: linear-gradient(90deg, #f0c75e, #d4af37);
+  transform: scale(1.03);
+  box-shadow: 0 0 15px rgba(212, 175, 55, 0.4);
+}
+
+/* Resultado */
+.resultado{
+  margin-top: 25px;
+  padding: 20px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+/* Rodapé */
+footer{
+  margin-top: 25px;
+  font-size: 0.85rem;
+  color: #777;
+  letter-spacing: 0.5px;
+}
